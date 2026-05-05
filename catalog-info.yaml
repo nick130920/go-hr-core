@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: go-hr-core
+  description: |
+    Reusable Go domain library for HR products: workers, vacancies, hiring
+    coordinator. Persistence and transport are intentionally left to the
+    consumer so this lib can be plugged into any company's HR platform.
+  tags: [go, library, hr, domain, ddd]
+  annotations:
+    github.com/project-slug: nick130920/go-hr-core
+    backstage.io/source-location: url:https://github.com/nick130920/go-hr-core
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://github.com/nick130920/go-hr-core
+      title: Source
+      icon: github
+spec:
+  type: library
+  lifecycle: experimental
+  owner: platform-team
+  system: hr-platform
