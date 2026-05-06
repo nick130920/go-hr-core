@@ -1,0 +1,13 @@
+site_name: 'go-hr-core'
+site_description: 'Reusable Go HR domain library: workers, vacancies, hiring coordinator.'
+
+nav:
+  - Overview: index.md
+  - Architecture: architecture.md
+  - Usage:
+      - Worker service: usage-worker.md
+      - Vacancy service: usage-vacancy.md
+      - Hiring coordinator: usage-hiring.md
+
+plugins:
+  - techdocs-core
